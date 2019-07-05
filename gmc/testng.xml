@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GMCAutomation">
+	<!-- <listeners>
+		<listener class-name="com.vsysq.base.TestListener" />
+	</listeners> -->
+  <test verbose="2" name="GMCTestNG">
+    <classes>
+      <class name="testCase.LoginTestCase"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
