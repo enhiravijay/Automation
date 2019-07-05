@@ -34,7 +34,8 @@ public class LoginTestCase extends TestBase {
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	public static ExtentTestInterruptedException testexception;
-
+	
+	// just adding comment to check git.
 	@BeforeSuite
 	public void beforeSuite() {
 		extent = new ExtentReports(System.getProperty("user.dir") + "/test-output/MyOwnReport.html", true);

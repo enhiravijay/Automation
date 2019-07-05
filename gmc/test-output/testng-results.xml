@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="1" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="64162" started-at="2019-07-04T10:34:36Z" finished-at="2019-07-04T10:35:41Z">
+  <suite name="Default suite" duration-ms="46204" started-at="2019-07-05T08:59:12Z" finished-at="2019-07-05T08:59:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="64162" started-at="2019-07-04T10:34:36Z" finished-at="2019-07-04T10:35:41Z">
+    <test name="Default test" duration-ms="46204" started-at="2019-07-05T08:59:12Z" finished-at="2019-07-05T08:59:58Z">
       <class name="testCase.LoginTestCase">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="beforeSuite" is-config="true" duration-ms="247" started-at="2019-07-04T10:34:36Z" finished-at="2019-07-04T10:34:36Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="beforeSuite" is-config="true" duration-ms="469" started-at="2019-07-05T08:59:11Z" finished-at="2019-07-05T08:59:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="beforeMethod" is-config="true" duration-ms="30688" started-at="2019-07-04T10:34:37Z" finished-at="2019-07-04T10:35:07Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="beforeMethod" is-config="true" duration-ms="19622" started-at="2019-07-05T08:59:12Z" finished-at="2019-07-05T08:59:32Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="forcefail()[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="forcefail" duration-ms="10" started-at="2019-07-04T10:35:07Z" description="force fail" finished-at="2019-07-04T10:35:07Z">
+        <test-method status="FAIL" signature="forcefail()[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="forcefail" duration-ms="10" started-at="2019-07-05T08:59:32Z" description="force fail" finished-at="2019-07-05T08:59:32Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -65,7 +65,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forcefail -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="afterMethod" is-config="true" duration-ms="3878" started-at="2019-07-04T10:35:07Z" finished-at="2019-07-04T10:35:11Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="afterMethod" is-config="true" duration-ms="2235" started-at="2019-07-05T08:59:32Z" finished-at="2019-07-05T08:59:34Z">
           <params>
             <param index="0">
               <value>
@@ -76,7 +76,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="beforeMethod" is-config="true" duration-ms="9158" started-at="2019-07-04T10:35:11Z" finished-at="2019-07-04T10:35:20Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="beforeMethod" is-config="true" duration-ms="8949" started-at="2019-07-05T08:59:34Z" finished-at="2019-07-05T08:59:43Z">
           <params>
             <param index="0">
               <value>
@@ -87,11 +87,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login()[pri:1, instance:testCase.LoginTestCase@15bfd87]" name="Login" duration-ms="11319" started-at="2019-07-04T10:35:20Z" description="superadmin negative login" finished-at="2019-07-04T10:35:32Z">
+        <test-method status="PASS" signature="Login()[pri:1, instance:testCase.LoginTestCase@15bfd87]" name="Login" duration-ms="7050" started-at="2019-07-05T08:59:43Z" description="superadmin negative login" finished-at="2019-07-05T08:59:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="afterMethod" is-config="true" duration-ms="2805" started-at="2019-07-04T10:35:32Z" finished-at="2019-07-04T10:35:34Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="afterMethod" is-config="true" duration-ms="947" started-at="2019-07-05T08:59:50Z" finished-at="2019-07-05T08:59:51Z">
           <params>
             <param index="0">
               <value>
@@ -102,7 +102,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="beforeMethod" is-config="true" duration-ms="5302" started-at="2019-07-04T10:35:35Z" finished-at="2019-07-04T10:35:40Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="beforeMethod" is-config="true" duration-ms="6154" started-at="2019-07-05T08:59:51Z" finished-at="2019-07-05T08:59:57Z">
           <params>
             <param index="0">
               <value>
@@ -113,11 +113,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login1()[pri:2, instance:testCase.LoginTestCase@15bfd87]" name="Login1" duration-ms="2" started-at="2019-07-04T10:35:40Z" description="admin positive login" finished-at="2019-07-04T10:35:40Z">
+        <test-method status="PASS" signature="Login1()[pri:2, instance:testCase.LoginTestCase@15bfd87]" name="Login1" duration-ms="2" started-at="2019-07-05T08:59:57Z" description="admin positive login" finished-at="2019-07-05T08:59:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login1 -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="afterMethod" is-config="true" duration-ms="843" started-at="2019-07-04T10:35:40Z" finished-at="2019-07-04T10:35:41Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="afterMethod" is-config="true" duration-ms="1039" started-at="2019-07-05T08:59:57Z" finished-at="2019-07-05T08:59:58Z">
           <params>
             <param index="0">
               <value>
@@ -128,7 +128,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="afterSuite" is-config="true" duration-ms="27" started-at="2019-07-04T10:35:41Z" finished-at="2019-07-04T10:35:41Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCase.LoginTestCase@15bfd87]" name="afterSuite" is-config="true" duration-ms="31" started-at="2019-07-05T08:59:58Z" finished-at="2019-07-05T08:59:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
